@@ -2,7 +2,7 @@ import puppeter from 'puppeteer'
 
 const browser = await puppeter.launch({ 
   headless:true,
-  executablePath: '/usr/bin/chromium-browser'
+  args: ["--no-sandbox", "--disable-setuid-sandbox"]
 })
 
 export {
