@@ -47,7 +47,8 @@ class Notifier {
 const notifier = new Notifier
 
 // should run every 10 min -> apartir de las 00:00 debe comenzar a observar todos los dias
-cron.schedule('*/15 * * * *', () => {
+// */15 * * * *
+cron.schedule('* * * * * *', () => {
   console.log('App running!')
   notifier.watch()
 })
