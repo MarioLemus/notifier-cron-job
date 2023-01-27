@@ -10,5 +10,6 @@ Notifier app is an app that is intended to get track of some events that are hap
 node ./src/index.js
 ```
 
-**Note**
+### Note
+
 Deploying this app in a container could bring some issues with puppeteer
