@@ -12,4 +12,4 @@ node ./src/index.js
 
 ### Note
 
-Deploying this app in a container could bring some issues with puppeteer
+\*Deploying this app in a container could bring some issues with puppeteer
