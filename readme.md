@@ -4,7 +4,7 @@ Notifier app is an app that is intended to get track of some events that are hap
 
 ## Getting started
 
-1. run the following commmand to get up and running
+1. run the following command to get up and running
 
 ```bash:
 node ./src/index.js
